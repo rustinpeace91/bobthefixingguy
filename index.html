@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Bob the fixing guy</title>
+		<link rel = "stylesheet" type = "text/css" href="style.css">
+		<script src="https://use.fontawesome.com/b0aacd6f67.js"></script>
+		<script>
+			function dropDown() {
+				var x = document.getElementById("top-nav");
+				var y = document.getElementById("top-header");
+				if (x.className === "main-nav" && y.className === "header") {
+					x.className += "-responsive";
+					y.classList.add("header-responsive");
+				} else {
+					x.className = "main-nav";
+					y.classList.remove("header-responsive");
+				}
+			}
+
+
+		</script>
+	</head>
+	<body>
+		<nav class = "header" id = "top-header">
+			<a href = "javascript:void(0);" onclick = "dropDown()" class = "menu-icon-1">&#9776; menu</a>
+			<ul class = "main-nav" id = "top-nav">
+		       <li><a href="#" class="current">Home</a></li>
+		       <li><a href="#">About</a></li>
+		       <li><a href="#">Services</a></li>
+			   <li><a href="#">Videos</a></li>
+		       <li><a href="#">Pricing</a></li>
+		       <li><a href="#">Contact</a></li>
+			</ul>
+
+		</nav>
+		<img src = "bobtitle.jpg" class = "header-image" width = "100%" >
+
+       <div class = "content">
+       		<h2>Our Promise</h2>
+       		<div class = "writing">
+        	<p>The C&O fully absorbed the Pere Marquette Railway in 1947, inheriting the car ferry service already established in Ludington. The division became known as the "Pere Marquette District" of the C&O railroad. There were already several car ferries working out of Ludington at the time, including the Pere Marquette 21 and Pere Marquette 22, the City of Saginaw 31 and City of Flint 32, and the City of Midland 41. C&O decided to improve its ferry fleet by adding two new ships. While similar in design to the immensely popular City of Midland 41, the new ships would have several notable design changes, such as a full-width pilot house that gave the crew an almost 360-degree view, and new lifeboat davits that freed up deck space.</p>
+
+            <p>Hull 369, which would become the Spartan began construction in late 1950 by the Christy Corporation of Sturgeon Bay, Wisconsin. She was launched on 4 January 1952 without fanfare; the Badger was being built at the same time, and the owners preferred a double-christening ceremony. During construction, many cities on both sides of Lake Michigan lobbied for their names to go on the new ships, as was the tradition with previous Pere Marquette car ferries (i.e. City of Midland 41). C&O decided that fewer feelings would be hurt if the twin ferries were named Spartan and Badger, after the mascots of Michigan State University (then Michigan State College) and the University of Wisconsin. The ships were christened on 6 September 1952 after the Badger was successfully launched. The Spartan completed her sea trials on 27 September 1952 and was delivered to C&O on 23 October. She immediately began work for the C&O, operating from her home port of Ludington.</p>
+            </div>
+       </div>
+	</body>
+
+</html>

@@ -1,0 +1,112 @@
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, 
+em, font, img, ins, kbd, q, s, samp, small,
+ strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, 
+ ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, 
+ thead, tr, th, td {margin:0; padding:0; 
+ border:0; outline:0; font-size:100%; vertical-align:baseline; 
+ background:transparent;} body {line-height: 1;}ol, ul{list-style:none;} blockquote, 
+ q{quotes:none;} blockquote:before, blockquote:after, q:before,
+ q:after{content:'';content:none;} :focus{outline:0;} 
+ ins{text-decoration:none;} del{text-decoration:line-through;} 
+ table{border-collapse:collapse; border-spacing:0;}
+
+ /*MAIN*/
+
+ body {
+ 	font-family:"Helvetica Neue",Helvetica, Arial;
+	background: #f9f9f9;
+	color: #555;
+ }
+
+ a{
+ 	text-decoration:none;
+ 	font-weight:bold;
+ 	color:white;
+ }
+
+ h2 {
+  font-size:30px;
+ }
+
+/*HEADER*/
+
+.header {
+  	background-color:#900000;
+    height:50px;
+    position:relative;
+}
+
+
+
+
+
+ul.main-nav li {
+  display:inline-block;
+  line-height:48px;
+  margin-left:20px;
+}
+
+ul.main-nav-responsive li{
+	display:inline-block;
+	line-height:48px;
+  	margin-left:20px;
+}
+
+nav ul a:hover{
+	background:#E6E6E6;
+	color:black;
+    padding:14px 0px 15px 0px;
+}
+
+.menu-icon-1{
+  display:none;
+}
+
+@media screen and (max-width:600px) {
+  ul.main-nav {
+    display:none;
+  }
+
+  ul.main-nav-responsive li {
+  	display:block;
+  }
+  .main-nav-responsive {
+    display:block;
+    background-color:#900000;
+    clear:both;
+    line-height:35px;
+    text-align:center;
+    margin-bottom:200px;
+  }
+  .menu-icon-1{
+    display:block;
+    line-height:46px;
+    float:right;
+    margin:0 20px 0 0;
+  }
+  .header-responsive {
+  margin-bottom:280px;
+  }
+  
+}
+
+/*body*/
+
+.content {
+  padding-top:2em;
+  line-height:28px;
+  margin:auto;
+  width:67%;
+  max-width:960px;
+}
+
+.writing {
+  border-top:dotted;
+  border-width:.14em;
+  border-color:#e2dbd0;
+  padding-top:2em;
+}
+
+
