@@ -40,12 +40,17 @@ em, font, img, ins, kbd, q, s, samp, small,
 
 
 
+ul.main-nav {
+	display:block;
+	margin:auto;
+	width:67%;
 
+}
 
 ul.main-nav li {
-  display:inline-block;
   line-height:48px;
-  margin-left:20px;
+  display:inline;
+  padding-right:35px;
 }
 
 ul.main-nav-responsive li{
@@ -63,7 +68,7 @@ nav ul a:hover{
   display:none;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:820px) {
   ul.main-nav {
     display:none;
   }
